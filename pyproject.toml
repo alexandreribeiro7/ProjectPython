@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "projectpython"
+version = "0.1.0"
+description = ""
+authors = ["alexandreribeiro"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.6.1"
+fastapi = "^0.109.2"
+uvicorn = "^0.27.1"
+aiohttp = "^3.9.3"
+requests = "^2.31.0"
+SQLAlchemy = "^2.0.27"
+python-decouple = "^3.8"
+alembic = "^1.13.1"
+psycopg = "^3.1.18"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
